@@ -1,0 +1,125 @@
+section [class^="container"]{
+    padding: 4rem 2rem;
+}
+@media screen and(min-width:1024px){
+    section [class^="container"]{
+        padding: 4rem ;
+    }
+    nav [class^="container"]{
+        padding: 0 4rem ;
+    }
+}
+a{
+   color: #000000; 
+   text-decoration:none ;
+}
+a:hover{
+    color: #423529;
+}
+section:not(:first-of-type){
+    text-align: center;
+}
+.navbar{
+    background-color: #faf0dc;
+}
+
+.navbar-nav .nav-link{
+    color: black;
+    font-size: 1.1rem;
+}
+.navbar-nav .nav-link:hover{
+    color: #C19770;
+}
+
+@media screen and(min-width:1024px) {
+    .navbar-nav .nav-item{
+        padding: 0 1rem ;
+    }
+    .navbar-brand{
+        font-size:1.5rem;
+    }
+    
+}
+/* HERO */
+section.hero h1{
+    color: #000000;
+}
+section.hero{
+    background-color: #C19770;
+    padding-top: 72px;
+}
+@media screen and(min-width:576px) {
+    section.hero{
+        text-align: center ;
+    }
+    section.hero img{
+        width: 40%;
+        height: 40%;
+    }
+    
+}
+
+/*education   */
+section.education{
+    background-color:#d4b996ff;
+}
+
+section.education i{
+    font-size:2rem;
+    margin:1 rem auto 0;
+    border: 2px solid #000000;
+    width:4rem;
+    height:4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+section .card ,
+.btn-outline-dark{
+    border: 2px solid #000000;
+    box-shadow: 4px 4px #000000;
+transition: all 0.4s;
+}
+    .btn-outline-dark:hover{
+box-shadow: #C19770;
+
+    }
+section.card{
+        max-width:22rem;
+        margin-inline: auto;
+    }
+   
+
+/* About */
+@media screen and(min-width:1024px){
+
+section.about.container{
+    width: 60%;
+}}
+section.about{
+    background-color: #f0ede8;
+}
+
+/* projects */
+section .projects .card{
+    max-width:17rem ;
+    text-align:left ;
+}
+/* section.projects.card img{
+    width: 50%;
+    height: auto;
+   margin: 1rem auto;
+
+} */
+section.projects{
+    background-color:  #f0ede8;
+}
+section.contact.social-media a{
+padding: 0.5rem;
+font-size: 1.3rem;
+}
+section.contact{
+    background-color:  #C19770;
+}
